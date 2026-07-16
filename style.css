@@ -1,0 +1,84 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+     background-color: rgba(185, 206, 154, 0.7);
+}
+/*linear grandient à utiliser après*/
+
+.hero{
+
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: end;
+    list-style: none;
+    
+}
+
+.menu li a{
+
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+.menu li a:active{ 
+    color: green;
+}
+
+.btn-action{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    background-image: url(images/ecom2.jpg);
+    background-size: cover;
+    height: 60px;
+    gap: 40px;
+    padding: 30px;
+}
+
+.btn-action a:first-child{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.page{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.story{
+    margin: 20px;
+    font-size: 20px;
+    animation: translate 2s ease-in-out infinite;
+
+}
+@keyframes translate{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform:translateY(50px) ;
+
+    }
+
+}
