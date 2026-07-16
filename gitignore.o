@@ -1,0 +1,9 @@
+# Ignorer tous les fichiers objets issus de la compilation
+*.o
+
+# Ignorer les fichiers temporaires (ex: se terminant par ~ ou .tmp)
+*~
+*.tmp
+
+# Ignorer l'exécutable spécifique
+nom_de_votre_executable

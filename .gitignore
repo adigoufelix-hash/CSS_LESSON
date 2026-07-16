@@ -1,0 +1,11 @@
+$ git add gitignore .co
+fatal: pathspec 'gitignore' did not match any files
+[A[A[A[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[B[D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A# Ignorer tous les fichiers objets issus de la compilation
+*.o
+
+# Ignorer les fichiers temporaires (ex: se terminant par ~ ou .tmp)
+*~
+*.tmp
+
+# Ignorer l'exécutable spécifique
+nom_de_votre_executable
